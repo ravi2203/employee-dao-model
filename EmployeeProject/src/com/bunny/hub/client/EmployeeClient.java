@@ -22,7 +22,7 @@ public class EmployeeClient {
 		emp.setEmpSal(scan.nextDouble());
 		int status =ser.save(emp);
 		System.out.println(status+"record is inserted");
-		
+		System.out.println("git repoditory created");
 	}
 
 }
